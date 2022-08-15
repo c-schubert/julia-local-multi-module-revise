@@ -23,19 +23,18 @@ see: https://timholy.github.io/Revise.jl/stable/config/#Configuration-1
 
 ## Option1: Using Sub-Modules for src functions (no MainModule)
 
-*See "src/main_func_only.jl"*
+*See "MultiMod/src/main_func_only.jl"*
 
--> Changes within MyMod1.jl test() function should be visible when rerun main_func_only.jl
+-> For Example: Changes within the MyMod1.jl (location: MultiMod/src/MyMod1/src/MyMod1.jl) test()'s function should be visible when rerun main_func_only.jl
 
 
 ## Option2: Using Sub-Modules in Main-Module
 
 MainModule (here "MultiMod") musst be generated properly, accordinly how see Readme of the MultiMod Main-Module
 
-*See "src/MainMod.jl" and "main.jl"*
+*See "MultiMod/src/MainMod.jl" and "MultiMod/main.jl"*
 
--> Changes within MyMod1.jl test() function should be visible when rerun main.jl
-
+-> For Example: Changes within the MyMod1.jl (location: MultiMod/src/MyMod1/src/MyMod1.jl) test()'s function should be visible when rerun main.jl
 
 ## TODOs
 - Updates example to include more changes from sub modules
