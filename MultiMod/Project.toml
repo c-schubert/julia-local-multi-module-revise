@@ -1,0 +1,6 @@
+name = "MultiMod"
+uuid = "e1890f74-1c79-11ed-0ad1-e532d86f9f42"
+
+[deps]
+MyMod1 = "870e91a8-1c70-11ed-230a-c54b7497b5ed"
+MyMod2 = "9c3d90b0-1c70-11ed-34cc-aba10b97463f"
